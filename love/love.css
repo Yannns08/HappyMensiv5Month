@@ -543,7 +543,7 @@ body{
     z-index: 1000;
 }
 .letters img{
-    width: 100%;
+    width: 120%;
 }
 .wrapperLetterForm{
     position: absolute;
