@@ -274,7 +274,7 @@ body{
     animation: car 4s 1s forwards, car1 2s 5s forwards;
 }
 .boxCar img{
-    width: 300px;
+    width: 350px;
 }
 @keyframes car{
     0%{
@@ -300,8 +300,8 @@ body{
 } */
 .heart1,.heart2,.heart3, .heart4, .heart5, .heart6{
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: rgb(255, 62, 65);
     transform: scale(0.2) rotate(45deg);
     bottom: 20%;
@@ -537,13 +537,13 @@ body{
 }
 .letters{
     position: absolute;
-    width: 50px;
+    width: 65px;
     transition: 10s ease-in-out;
     cursor: pointer;
     z-index: 1000;
 }
 .letters img{
-    width: 120%;
+    width: 100%;
 }
 .wrapperLetterForm{
     position: absolute;
@@ -564,8 +564,8 @@ body{
 }
 .boxLetter .formLetter{
     position: relative;
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
     background-color: #FFEBEB;
     border-radius: 20px;
     z-index: 100;
@@ -582,8 +582,8 @@ body{
 }
 .boxLetter .before{
     position: absolute;
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
     background: #fff;
     transform: rotate(-15deg);
     border-radius: 20px;
@@ -653,12 +653,12 @@ body{
     user-select: none;
 }
 .textLetter h2{
-    margin-top: 25px;
-    font-size: 25px;
+    margin-top: 20px;
+    font-size: 30px;
     font-family: 'Dancing Script', cursive;
 }
 .textLetter .contentLetter{
-    font-size: 15px;
+    font-size: 19px;
     text-align: center;
     padding: 0px 10px;
     margin-top: 10px;
@@ -671,7 +671,7 @@ body{
     top: 20px;
     color: #fff;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
 }
 .show{
     display: block;
@@ -746,7 +746,7 @@ body{
         }
     }
     .giftbox .img{
-        width: 200px;
+        width: 100px;
         bottom: 50px;
         left: 20px;
     }
@@ -756,4 +756,4 @@ body{
     .listSlider{
         height: 230px;
     }
-}
+    }
