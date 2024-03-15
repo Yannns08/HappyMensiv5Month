@@ -646,15 +646,15 @@ body{
 }
 .textLetter{
     position: relative;
-    width: 80%;
+    width: 50%;
     flex-direction: column;
     display: flex;
     align-items: center;
     user-select: none;
 }
 .textLetter h2{
-    margin-top: 40px;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 15px;
     font-family: 'Dancing Script', cursive;
 }
 .textLetter .contentLetter{
@@ -671,7 +671,7 @@ body{
     top: 20px;
     color: #fff;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 15px;
 }
 .show{
     display: block;
