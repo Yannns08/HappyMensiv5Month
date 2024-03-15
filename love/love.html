@@ -214,7 +214,7 @@
     // .textLetter text h2
     let indexText = 0;
     let textLetter = document.querySelector('.textLetter h2');
-    const textLetterH2 = "Gửi em!";
+    const textLetterH2 = "Sayang!";
     let timoutTextLetter;
 
     function textCharLetter(){
@@ -239,10 +239,10 @@
             }, 200)
     }
 
-    // chữ của thư bạn muốn gửi
+    // sayang sayang sayang sayang
     let indexTextContent = 0;
     let textLetterContent = document.querySelector('.contentLetter');
-    const textLetterP = "Lời chúc ở đây";
+    const textLetterP = "Ayang aku mika";
     let timoutTextLetterContent;
     function textCharLetterContent(){
         if (indexTextContent < textLetterP.length) {
@@ -303,7 +303,7 @@
 
     document.querySelector(".fa-xmark").addEventListener("click", function(){
         indexTextContent = 0; // Reset indexTextContent
-        textLetterContent.textContent = ''; // Xóa nội dung hiện tại của textLetter
+        textLetterContent.textContent = ''; // Mika sayang iloveyou
         clearInterval(timoutTextLetterContent)
         $(".wrapperLetterForm").fadeOut()
     })
